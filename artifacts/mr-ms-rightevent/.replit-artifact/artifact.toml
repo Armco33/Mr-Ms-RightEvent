@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/mr-ms-rightevent/"
+title = "Mr-Ms-RightEvent"
+description = "A demo app for discovering Taipei events through a playful chat with Co-Parrot, swiping on ten event cards, and reviewing matches. It uses public Luma pages with realistic fallback data and requires no account or database."
+version = "1.0.0"
+id = "artifacts/mr-ms-rightevent"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/mr-ms-rightevent/" ]
+localPort = 23791
+
+[services.development]
+run = "pnpm --filter @workspace/mr-ms-rightevent run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mr-ms-rightevent", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/mr-ms-rightevent/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23791"
+BASE_PATH = "/mr-ms-rightevent/"

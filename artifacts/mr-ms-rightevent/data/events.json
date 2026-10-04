@@ -1,0 +1,112 @@
+[
+  {
+    "id": "taipei-ai-builders-night",
+    "title": "Taipei AI Builders Night",
+    "start": "2026-10-07T19:00:00+08:00",
+    "venue": "N24 Coworking",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Taiwan AI Labs",
+    "free": true
+  },
+  {
+    "id": "product-people-taipei",
+    "title": "Product People Taipei: Building for What's Next",
+    "start": "2026-10-08T18:30:00+08:00",
+    "venue": "The Hive Taipei",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Product People Taiwan",
+    "free": true
+  },
+  {
+    "id": "taipei-data-community",
+    "title": "Data & Donuts: Taipei Analytics Meetup",
+    "start": "2026-10-09T09:30:00+08:00",
+    "venue": "AppWorks",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Taipei Data Community",
+    "free": true
+  },
+  {
+    "id": "open-source-taipei",
+    "title": "Open Source Taipei: Community Night",
+    "start": "2026-10-10T18:00:00+08:00",
+    "venue": "CLBC Da'an",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Open Source Taipei",
+    "free": true
+  },
+  {
+    "id": "founders-coffee-taipei",
+    "title": "Founders' Coffee: Taipei Startup Stories",
+    "start": "2026-10-11T10:00:00+08:00",
+    "venue": "Fika Fika Cafe",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Taipei Startup Community",
+    "free": true
+  },
+  {
+    "id": "web3-taipei-connect",
+    "title": "Web3 Taipei Connect",
+    "start": "2026-10-13T19:00:00+08:00",
+    "venue": "FutureWard Central",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Taipei Web3 Community",
+    "free": true
+  },
+  {
+    "id": "women-in-tech-taipei",
+    "title": "Women in Tech Taiwan: Make It Happen",
+    "start": "2026-10-14T18:30:00+08:00",
+    "venue": "WeWork Taipei",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Women in Tech Taiwan",
+    "free": true
+  },
+  {
+    "id": "taipei-indie-hackers",
+    "title": "Indie Hackers Taipei: Ship Together",
+    "start": "2026-10-15T19:00:00+08:00",
+    "venue": "Garage+",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Indie Hackers Taiwan",
+    "free": true
+  },
+  {
+    "id": "design-engineering-taipei",
+    "title": "Design x Engineering: Better Together",
+    "start": "2026-10-17T14:00:00+08:00",
+    "venue": "Songshan Cultural and Creative Park",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Taipei Product Design Club",
+    "free": true
+  },
+  {
+    "id": "cloud-native-taipei",
+    "title": "Cloud Native Taipei: Kubernetes in Practice",
+    "start": "2026-10-18T13:30:00+08:00",
+    "venue": "Taipei Tech Arena",
+    "city": "Taipei",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://lu.ma/taipei",
+    "organizer": "Cloud Native Taiwan",
+    "free": true
+  }
+]
