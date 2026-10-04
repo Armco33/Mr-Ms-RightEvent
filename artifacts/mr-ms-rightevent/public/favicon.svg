@@ -1,3 +1,9 @@
 <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="180" height="180" rx="36" fill="#FF3C00"/>
+  <rect width="180" height="180" rx="44" fill="#FFE5ED"/>
+  <ellipse cx="82" cy="108" rx="40" ry="42" fill="#7CCEB0"/>
+  <circle cx="104" cy="65" r="31" fill="#7CCEB0"/>
+  <path d="M130 68L161 80L130 91C134 83 134 76 130 68Z" fill="#F36D9B"/>
+  <circle cx="114" cy="58" r="4" fill="#382B35"/>
+  <path d="M47 132L20 157L69 145L47 132Z" fill="#54A985"/>
+  <path d="M76 149C90 155 108 151 117 139" stroke="#398C6E" stroke-width="8" stroke-linecap="round"/>
 </svg>

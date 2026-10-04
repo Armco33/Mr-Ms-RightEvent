@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap");
-@import "tailwindcss";
 
 :root {
   --paper: #fff8f7;
@@ -42,7 +41,7 @@ a { color: inherit; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .brand-mark { width: 43px; height: 43px; display: grid; place-items: center; border-radius: 16px; background: var(--pink-soft); font-size: 25px; }
 .brand-name { font: 800 18px/1.05 Manrope, sans-serif; letter-spacing: -.6px; }
-.brand-caption { color: var(--muted); font-size: 11px; margin-top: 4px; letter-spacing: .03em; }
+.brand-caption { display: block; color: var(--muted); font-size: 11px; margin-top: 4px; letter-spacing: .03em; }
 .city-pill { border: 1px solid var(--rose-border); border-radius: 100px; background: rgba(255,255,255,.75); color: #7a6470; padding: 8px 13px; font-size: 12px; font-weight: 700; }
 .page-heading { margin: 0; font: 800 clamp(27px, 6vw, 38px)/1.12 Manrope, sans-serif; letter-spacing: -1.5px; }
 .page-subtitle { color: var(--muted); margin: 8px 0 23px; font-size: 14px; }

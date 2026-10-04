@@ -8,20 +8,30 @@ router = "path"
 
 [[services]]
 name = "web"
-paths = [ "/mr-ms-rightevent/" ]
+paths = ["/mr-ms-rightevent/"]
 localPort = 23791
 
 [services.development]
 run = "pnpm --filter @workspace/mr-ms-rightevent run dev"
 
-[services.production]
-build = [ "pnpm", "--filter", "@workspace/mr-ms-rightevent", "run", "build" ]
-serve = "static"
-publicDir = "artifacts/mr-ms-rightevent/dist/public"
+[services.production.build]
+args = ["pnpm", "--filter", "@workspace/mr-ms-rightevent", "run", "build"]
 
-[[services.production.rewrites]]
-from = "/*"
-to = "/index.html"
+[services.production.build.env]
+NODE_ENV = "production"
+BASE_PATH = "/mr-ms-rightevent/"
+
+[services.production.run]
+args = ["node", "artifacts/mr-ms-rightevent/.next/standalone/server.js"]
+
+[services.production.run.env]
+PORT = "23791"
+NODE_ENV = "production"
+HOSTNAME = "0.0.0.0"
+BASE_PATH = "/mr-ms-rightevent/"
+
+[services.production.health.startup]
+path = "/mr-ms-rightevent/"
 
 [services.env]
 PORT = "23791"

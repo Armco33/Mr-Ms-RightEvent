@@ -9,6 +9,7 @@ if (!basePath.startsWith("/")) {
 
 const nextConfig: NextConfig = {
   basePath,
+  output: "standalone",
   reactStrictMode: true,
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,

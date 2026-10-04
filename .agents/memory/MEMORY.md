@@ -1,0 +1,1 @@
+- [Luma feed locality](luma-feed-locality.md) — Apply Taipei defaults only to city-scoped feeds; general discovery feeds need per-event location data.
